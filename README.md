@@ -8,3 +8,7 @@ At 42 you were not allowed to use almost any libraries whatsoever. You had to bu
 
 ## Description 
 
+To see the school's project instructions read the [PDF Instructions](https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/get_next_line.pdf). To see my logic, see the [Logic Flow Chart](https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/Get_next_line_FLOWCHART.pdf).
+
+ 
+
