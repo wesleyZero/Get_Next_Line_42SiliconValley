@@ -16,6 +16,56 @@ To see the school's project instructions read the [PDF Instructions](https://git
 
 
 
+<table><tr><td valign="top" width="50%">
+
+
+
+### Checking the input  
+The first thing we need to do, is make sure the arguments are valid. If the file descriptor is not valid, or the line pointer (the pointer that points to the first line in the file) is null, then we need to give an error message.   
+
+
+</td><td valign="top" width="50%">
+
+<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/Flow_0.png?raw=true" align="left" style="width: 100%" />  
+
+
+</td></tr></table>
+<br />
+
+<table><tr><td valign="top" width="50%">
+
+<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_1.png?raw=true" align="left" style="width: 100%" />  
+
+
+</td><td valign="top" width="50%">
+
+
+
+### Read from the file, line by line  
+Given a valid input, we can start reading from the specified file descriptor line by line.   
+
+
+</td></tr></table>  
+
+<br/>  
+
+<table><tr><td valign="top" width="50%">
+
+
+
+### Is this the last line in the file?   
+If the size of the memory read is less than the buffer, then we know that we have reached the end of the file.    
+
+
+</td><td valign="top" width="50%">
+
+<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_3.png?raw=true" align="left" style="width: 100%" />  
+
+
+</td></tr></table>
+<br />
+
+
 
 
 
