@@ -12,7 +12,9 @@ At 42 you were not allowed to use almost any libraries whatsoever. You had to bu
 To see the school's project instructions read the [PDF Instructions](https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/get_next_line.pdf). To see my logic, see the [Logic Flow Chart](https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/Get_next_line_FLOWCHART.pdf).
 
 ### What is getnextline? 
- The program has the same functionality of 'getline' from the stdio library in C. I coded this from scratch (no googling to cheat, beyond syntactic & symantic errors) to exercise my logic. It reads in a file ....
+ The program has the same functionality of 'getline' from the stdio library in C. I coded this from scratch (no googling to cheat, beyond syntactic & symantic errors) to exercise my logic. It reads in a file line by line into a buffer, until the entire file is read. 
+
+
 
 
 
