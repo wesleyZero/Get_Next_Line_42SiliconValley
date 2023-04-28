@@ -15,12 +15,11 @@ To see the school's project instructions read the [PDF Instructions](https://git
  The program has the same functionality of 'getline' from the stdio library in C. I coded this from scratch (no googling to cheat, beyond syntactic & symantic errors) to exercise my logic. It reads in a file line by line into a buffer, until the entire file is read. 
 
 
-
 <table><tr><td valign="top" width="50%">
 
 
 
-### Checking the input  
+### Check if the input is valid  
 The first thing we need to do, is make sure the arguments are valid. If the file descriptor is not valid, or the line pointer (the pointer that points to the first line in the file) is null, then we need to give an error message.   
 
 
@@ -29,8 +28,9 @@ The first thing we need to do, is make sure the arguments are valid. If the file
 <img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/Flow_0.png?raw=true" align="left" style="width: 100%" />  
 
 
-</td></tr></table>
-<br />
+</td></tr></table>  
+
+<br/>  
 
 <table><tr><td valign="top" width="50%">
 
@@ -41,8 +41,8 @@ The first thing we need to do, is make sure the arguments are valid. If the file
 
 
 
-### Read from the file, line by line  
-Given a valid input, we can start reading from the specified file descriptor line by line.   
+### Read from the file descriptor  
+Given a valid input, we can start reading from the specified file descriptor using a **buffer**  
 
 
 </td></tr></table>  
@@ -53,8 +53,8 @@ Given a valid input, we can start reading from the specified file descriptor lin
 
 
 
-### Is this the last line in the file?   
-If the size of the memory read is less than the buffer, then we know that we have reached the end of the file.    
+### Did we find the end of the line or file?   
+If the size of the memory read is less than the buffer, then we know that we have reached the end of the file. If there is a newline character within the buffer, then we know we have reached the end of the line.   
 
 
 </td><td valign="top" width="50%">
@@ -62,10 +62,39 @@ If the size of the memory read is less than the buffer, then we know that we hav
 <img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_3.png?raw=true" align="left" style="width: 100%" />  
 
 
+</td></tr></table>  
+
+<br/>  
+
+<table><tr><td valign="top" width="50%">
+
+<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_4.png?raw=true" align="left" style="width: 100%" />  
+
+
+</td><td valign="top" width="50%">
+
+
+
+### Concatenate and split strings, to return one line at a time  
+Handle the sub-strings that terminate the line or file  
+
+
+</td></tr></table>  
+
+<br/>  
+
+<table><tr><td valign="top" width="50%">
+
+
+
+### Return True, if the file is done reading   
+  
+
+
+</td><td valign="top" width="50%">
+
+<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_5.png?raw=true" align="left" style="width: 100%" />  
+
+
 </td></tr></table>
 <br />
-
-
-
-
-
