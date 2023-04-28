@@ -86,7 +86,7 @@ Handle the sub-strings that terminate the line or file
 
 
 
-### Return True, if the file is done reading   
+### If the file is done reading return True 
   
 
 
