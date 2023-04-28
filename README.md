@@ -93,7 +93,7 @@ Handle the sub-strings that terminate the line or file
 
 </td><td valign="top" width="50%">
 
-<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_5.png?raw=true" align="left" style="width: 100%" />  
+<img src="https://github.com/wesleyZero/Get_Next_Line_42SiliconValley/blob/main/README_RESOURCES/flow_6.png?raw=true" align="left" style="width: 100%" />  
 
 
 </td></tr></table>
