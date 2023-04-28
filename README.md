@@ -1,4 +1,3 @@
-# 🚧 This repo is under construction 🚧
 # GetNextLine : A copy of the getline() function in C 
 
 ## 42 Silicon Valley
